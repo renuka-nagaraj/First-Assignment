@@ -1,63 +1,168 @@
+body{ 
+	background-color: #ffffcc;
+
+}
 .logo{
 	width: 100%;
 	height: 100%;
 }
-.search{
-	margin-top:80px;
-	float: center;
-	border-radius: 20px;
-	width: 200px;
+header>figure{
+	margin-bottom:0px;
 }
-#header{
+.aside{
+	margin-top: 5%;
+}
+li{
+	color: red;
+	font-size:20px;
+	font-family: 'Josefin Sans', sans-serif;
+	display: inline;
+
+
+}
+article>figure{
+	background-color: white;
+}
+article{
+
+	background-color: white;
+}
+nav >ul >a{
+	text-decoration: none;
+
+}
+nav >ul>li:last-child{
+	float:right;
+}
+section input{
+	padding-left: 20px;
+}
+#search{
+     
+    margin-top:10%;
+	font-size:20px;
+border-radius: 20px;
+width:90%;
+padding-left:30px;
+margin-left:10px;
+
+}
+#label{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 20%;
+	margin-left:78px;
+	font-size:20px
+}
+.aside li>a{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size:20px;
+	display: inline;
+	letter-spacing:2px;
+	color: red;
+}
+
+header{
 	
-	height:150px;
-	background-color:white;
-	width: 64.3%;
+	background-color:#fff0e6;
 	position: fixed;
+	width: 960px;
+	margin:auto;
+}
+ nav >ul > li>a{
+	display: inline;
+	font-size:17px;
+	text-decoration:none;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+/*li > a{
+	text-decoration:none;
+}*/
+#navbar{
+    
+	background-color: red;
+	margin-top:10%;
+	height: 60px;
 	
 }
- li{
-	display: inline;
-	font-size: 15px;
+
 }
-#navbar{
-	display: inline;
-	background-color: red;
+nav >ul>li>a:hover{
+	color: orange;
+	font-size: 20px;
+
+}
+#add{
+	width: 460px;
+	height: 500px;
+
+}
+body>figure{
+	margin-left: 0px;
+	margin-right: 0px;
+
 }
 #hero{
-	width: 100%;
-	height: 350px;
+	width:100%;
+	height: 450px;
+	margin-top:1%;
+	
 }
 p{
 	font-size: 20px;
 	text-align:center;
 }
-#footer1{
-	width: 30px;
-	height: 30px
-}
-#footer2{
-	width: 30px;
-	height: 30px
-}
-#footer3{
-	width: 30px;
-	height: 30px
-}
-#footer4{
-	width: 30px;
-	height: 30px
-}
-#deal{
-	width:400px;
-    height:300px;
-}
+ section>article>figure{
+ 	border:1px solid black;
+    width: 282px; 
+ }
+
 #cart{
 	height: 30px;
 	width: 30px;
 
 }
-#h3{
+#h2{
 	text-align: center;
 
+}
+section > article>strong{
+	font-size: 25px;
+	line-height: 35px;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 2px;
+}
+#dress{
+	
+   width: 280px;
+}
+#qup2{
+		width: 280px;
+	height:280px; 
+}
+#image2{
+	
+	width: 280px;
+	height:280px;
+}
+h5{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: 70px;
+	letter-spacing: 2px;
+	font-size: 25px;
+}
+
+
+#footer{
+	
+	background-color: grey;
+	
+}
+#footer>a>img{
+	padding:1em 1em;
+	float:right;
+   width:30px;
+    height:30px;
+    margin-top: 5px;
 }
