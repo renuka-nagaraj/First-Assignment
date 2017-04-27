@@ -1,122 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>MyWebPage</title>
-<meta charset="UTF-8"/>
-<link href="css/960.css" rel="stylesheet"/>
-<link href="css/rest.css" rel="stylesheet"/>
-<link href="css/text.css" rel="stylesheet"/>
-<link href="css/style.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-</head>
-<body >
- <section class="container_16" >
-   <header>
-     <figure class="grid_4">
-   	      <img src="img/logo.png" alt="add.jpg" class="logo"/>
-     </figure>
-     <section class="grid_4">
-          <input type="search" id="search"   placeholder="Search Items"/>
-          <label for="search" id="label" >Search</label>
-   	</section>
-   	<section class="grid_8">
-    
-   	  <nav class="aside">
-   			<ul>
-   			    <li><a href="#"> Wishlist</a></li>
-   			    <li><a href="#">Track Order</a></li>
-   			    <li><a href="#">Login</a></li>
-   			</ul>
-   	  </nav>
-    </section>
-  </header>
- </section>
-  <!--End of header part-->
-  <nav id="navbar">
-      <ul>
-            <li><a href="#">SHOES</a></li>
-            <li><a href="#">CLOTHINGS</a></li>
-            <li><a href="#">INDOOR SPORTS</a></li>
-            <li><a href="#">OUTDOOR SPORTS</a></li>
-            <li><a href="#">GYM AND FITTNESS</a></li>
-            <li><a href="#"><img src="img/shopping-cart.png" alt="img/add.jpg" id="cart">Cart</a></li>
-      </ul>
-  </nav>
-  <!--End of navbar part-->
-   	 <figure id="hero-img">
-          <img  src="img/hero.jpg" alt="img/add.jpg" id="hero" />
-     </figure>
-  
-   	  
-  <!--End of hero Part-->
-<section class="container_16" >
-   	  <article>
-   	  	   <figure class="grid_5">
-   	  	      <h5>upto 20% offer</h5>
-   	  	      <img src="img/dress.jpg" alt="logo" id="dress"/>
-           </figure>
-   	       <figure class="grid_5">
-   	  	      <h5>upto 10% offer</h5>
-   	  	      <img src="img/qup2.jpg" alt="logo" id="qup2"/>
-   	       </figure>
-   	       
-           <figure class="grid_6 omega" >
-   	  	     <h5>upto 70% offer</h5>
-   	  	     <img src="img/image2.jpg" alt="logo" id="image2" />
-   	       </figure>
-   	  </article>
-   	   
-  <!--End of three column section-->
+    <title>MyWebPage</title>
+    <meta charset="UTF-8" />
+    <link href="css/960.css" rel="stylesheet" />
+    <link href="css/rest.css" rel="stylesheet" />
+    <link href="css/text.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> </head>
 
-   	 
-
-
-   	  <section>
-             <figure class="grid_8">
-                 <img src="img/add.jpg"  alt="img/add.jpg" id="add">
-             </figure>
-             <section class="grid_8">
-                 
-                     <article>
-                     <h2>Sports are such a great teacher.</h2>
-                        <strong>
-                            <em>"I think of everything they've taught me: camaraderie, humility, how to resolve differences."</em>
-                        </strong>
-                     </article>
-                      
-                     <article>
-                     <h2>Knowledge!</h2>
-                      <strong>
-                        <em>
-                           "Apart from education, you need good health, and for that, you need to play sports."
-                        </em>
-                      </strong>
-                     </article>
-                     <article>
-                       <h2 id="h2">NEED HELP</h2>
-                       <strong>+91 8010669669(Mon - Sat 10:00 am - 6:30 pm)
-                        support@1-800-sports.in</strong>
-                     </article>
-                  
-             </section>
-      </section>
-<!--End of 2 column section-->
-
-
-          
-           	    
-            <footer>
-                <section class="grid_16" id="footer">
-           		    <a href="https://accounts.google.com"><img src="img/facebook.png" alt="" ></a>
-           				<a href="https://accounts.twitter.com"><img src="img/twitter.png" alt=""></a>
-           				<a href="https://accounts.insta.com"><img src="img/instagram.png" alt=""></a>
-           				<a href="https://accounts.insta.com"><img src="img/linkedin.png" alt=""></a>
-
-                </section>
-            </footer>
-            
-            <!--End of footer section--> 
-     
-    </section>  	
+<body>
+    <header>
+        <div class="container_16">
+            <figure class="grid_4"> <img src="img/header.png" alt="add.jpg" class="logo" /> </figure>
+            <div class="grid_4">
+                <input type="search" id="search" placeholder="search" />
+                <input type="button" id="btn" value="search" /> </div>
+            <div class="grid_8">
+                <nav class="aside">
+                    <ul>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li>
+                            <a href="#"><img src="img/shopping-cart.png" alt="img/add.jpg" id="cart">Cart</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <nav id="navbar" class="grid_16">
+                <ul>
+                    <li><a href="#">SHOES</a></li>
+                    <li><a href="#">CLOTHINGS</a></li>
+                    <li><a href="#">INDOOR SPORTS</a></li>
+                    <li><a href="#">OUTDOOR SPORTS</a></li>
+                    <li><a href="#">GYM AND FITTNESS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--End of header part-->
+    <figure id="hero-img"> <img src="img/hero.jpg" alt="img/add.jpg" id="hero" /> </figure>
+    <!--End of hero Part-->
+    <div class="container_16 column">
+        <h2 id="offer">Offer of the day...!</h2>
+        <article>
+            <figure class="grid_5">
+                <h5>upto 20% offer</h5> <img src="img/dress.jpg" alt="logo" id="dress" /> </figure>
+            <figure class="grid_5">
+                <h5>upto 10% offer</h5> <img src="img/qup2.jpg" alt="logo" id="qup2" /> </figure>
+            <figure class="grid_6 omega">
+                <h5>upto 70% offer</h5> <img src="img/image2.jpg" alt="logo" id="image2" /> </figure>
+        </article>
+    </div>
+    <!--End of three column section-->
+    <div class="container_16 column-2">
+        <section>
+            <h2>BENEFITS!!!!!!</h2>
+            <figure class="grid_8 column-1"> <img src="img/startup.jpg" alt="img/add.jpg" id="add"> </figure>
+            <div class="grid_8 column-deal">
+                <article>
+                    <h4>Sports are such a great teacher.</h4> <strong><em>
+                            I think of everything they've taught me: camaraderie, humility, how to resolve differences.
+                            </em></strong> </article>
+                <article>
+                    <h4>Knowledge!</h4> <strong><em>
+                            Apart from education, you need good health, and for that, you need to play sports.
+                            </em></strong> </article>
+                <article>
+                    <h4>Need Help</h4> <strong id="no">+91 8010669669</strong> </article>
+            </div>
+        </section>
+    </div>
+    <!--End of 2 column section-->
+    <div>
+        <div class="container_16">
+            <figure class="grid_16 "> <img src="img/About-us.png"> </figure>
+            <section class="grid_16 about">
+                <h3>ABOUT US....! </h3>
+                <div class="about-us"> <em>
+                            1800sports.in provides a platform for sports persons to buy quality sports, fitness and health products. 
+                            We provide End-to-End offerings to sports enthusiasts through 1800sports.in and STEP™ to ensure they get the best quality coaching, playing experiences, rewards and recognition and best products and infrastructure. 
+                        </em> </div>
+            </section>
+        </div>
+    </div>
+    <!--End of about us section-->
+    <footer>
+        <div class="grid_16" id="footer">
+            <a href="https://accounts.google.com"><img src="img/facebook.png" alt=""></a>
+            <a href="https://accounts.twitter.com"><img src="img/twitter.png" alt=""></a>
+            <a href="https://accounts.insta.com"><img src="img/instagram.png" alt=""></a>
+            <a href="https://accounts.insta.com"><img src="img/linkedin.png" alt=""></a> <small>&copy;Copyright 1800,Sports.in</small></div>
+    </footer>
+    <!--End of footer section-->
 </body>
+
 </html>
